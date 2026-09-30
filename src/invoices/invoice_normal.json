@@ -1,0 +1,23 @@
+{
+  "invoice_number": "INV/2026/0501",
+  "vendor_gst": "27AABCT5055K1Z0",
+  "vendor_name": "Priya Electrical Industries Pvt Ltd",
+  "invoice_date": "2026-09-20",
+  "invoice_amount": 42500,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Electrical Wires & Cables - 4mm Copper",
+      "hsn_code": "8544",
+      "quantity": 500,
+      "uom": "meter",
+      "rate_per_unit": 85,
+      "gst_rate": 5,
+      "line_total": 42500
+    }
+  ],
+  "po_number": "PO/2026/0001",
+  "has_signature": true,
+  "has_stamp": true,
+  "ocr_confidence": 98
+}

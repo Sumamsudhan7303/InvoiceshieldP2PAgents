@@ -1,0 +1,59 @@
+{
+  "invoice": "INV/2026/0503",
+  "final_decision": {
+    "decision": "AUTO_REJECT",
+    "approval_level": "SYSTEM",
+    "reason": "Critical issues found: 1 CRITICAL issue(s)",
+    "critical_issues": 1,
+    "high_issues": 0,
+    "medium_issues": 0
+  },
+  "all_agent_results": [
+    {
+      "status": "PASSED",
+      "invoice_number": "INV/2026/0503",
+      "vendor_gst": "06AACPB8765R3Z1",
+      "vendor_name": "Bangalore IT Consultants LLP",
+      "amount": 75000,
+      "po_number": "PO/2026/0004",
+      "severity": "NONE"
+    },
+    {
+      "severity": "NONE",
+      "status": "2026-09",
+      "agent": "GST_VALIDATOR"
+    },
+    {
+      "issues": [],
+      "severity": "NONE",
+      "agent": "HSN_VALIDATOR"
+    },
+    {
+      "status": "MATCHED",
+      "po_number": "PO/2026/0004",
+      "po_amount": 120000.0,
+      "severity": "NONE",
+      "agent": "PO_MATCHER"
+    },
+    {
+      "status": "BLACKLISTED",
+      "severity": "CRITICAL",
+      "agent": "VENDOR_CHECKER"
+    },
+    {
+      "variance_percent": 0,
+      "severity": "NONE",
+      "agent": "PRICE_VARIANCE"
+    },
+    {
+      "issues": [],
+      "severity": "NONE",
+      "agent": "RATE_JUSTIFIER"
+    },
+    {
+      "severity": "NONE",
+      "issues": [],
+      "agent": "AUTHORIZATION"
+    }
+  ]
+}

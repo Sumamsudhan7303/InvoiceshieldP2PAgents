@@ -1,0 +1,61 @@
+{
+  "invoice": "INV/2026/0502",
+  "final_decision": {
+    "decision": "HUMAN_REVIEW",
+    "approval_level": "PROCUREMENT_HEAD",
+    "reason": "HIGH severity issues + Amount \u20b9160,000",
+    "critical_issues": 0,
+    "high_issues": 1,
+    "medium_issues": 0
+  },
+  "all_agent_results": [
+    {
+      "status": "PASSED",
+      "invoice_number": "INV/2026/0502",
+      "vendor_gst": "33AAFCT7891M1Z2",
+      "vendor_name": "Techware Solutions India",
+      "amount": 160000,
+      "po_number": "PO/2026/0002",
+      "severity": "NONE"
+    },
+    {
+      "severity": "NONE",
+      "status": "2026-09",
+      "agent": "GST_VALIDATOR"
+    },
+    {
+      "issues": [],
+      "severity": "NONE",
+      "agent": "HSN_VALIDATOR"
+    },
+    {
+      "status": "MATCHED",
+      "po_number": "PO/2026/0002",
+      "po_amount": 160000.0,
+      "severity": "NONE",
+      "agent": "PO_MATCHER"
+    },
+    {
+      "status": "APPROVED",
+      "severity": "NONE",
+      "agent": "VENDOR_CHECKER"
+    },
+    {
+      "variance_percent": 8.1,
+      "severity": "HIGH",
+      "agent": "PRICE_VARIANCE"
+    },
+    {
+      "issues": [],
+      "severity": "NONE",
+      "agent": "RATE_JUSTIFIER"
+    },
+    {
+      "severity": "LOW",
+      "issues": [
+        "Missing stamp"
+      ],
+      "agent": "AUTHORIZATION"
+    }
+  ]
+}

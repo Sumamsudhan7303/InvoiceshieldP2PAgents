@@ -1,0 +1,25 @@
+{
+  "invoice_number": "INV/2026/0502",
+  "vendor_gst": "33AAFCT7891M1Z2",
+  "vendor_name": "Techware Solutions India",
+  "invoice_date": "2026-09-22",
+  "invoice_amount": 160000,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "ERP Development Services - 200 hours",
+      "hsn_code": "9999",
+      "quantity": 200,
+      "uom": "hour",
+      "rate_per_unit": 800,
+      "gst_rate": 18,
+      "line_total": 160000
+    }
+  ],
+  "po_number": "PO/2026/0002",
+  "po_amount": 148000,
+  "price_variance_percent": 8.1,
+  "has_signature": true,
+  "has_stamp": false,
+  "ocr_confidence": 92
+}

@@ -1,0 +1,23 @@
+{
+  "invoice_number": "INV/2026/0503",
+  "vendor_gst": "06AACPB8765R3Z1",
+  "vendor_name": "Bangalore IT Consultants LLP",
+  "invoice_date": "2026-09-21",
+  "invoice_amount": 75000,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Cloud Infrastructure Setup",
+      "hsn_code": "9999",
+      "quantity": 50,
+      "uom": "hour",
+      "rate_per_unit": 1500,
+      "gst_rate": 18,
+      "line_total": 75000
+    }
+  ],
+  "po_number": "PO/2026/0004",
+  "has_signature": true,
+  "has_stamp": true,
+  "ocr_confidence": 95
+}
